@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Kotlin JS Test</title>
+    </head>
+
+    <body>
+
+        <div id="root"></div>
+
+        <script src="out/production/KotlinJsTest/lib/kotlin.js"></script>
+        <script src="out/production/KotlinJsTest/lib/kotlinx-html-js.js"></script>
+
+        <script>
+            window.xyz = 10
+            window.user = {
+                firstName: "Dave",
+                handsome: true
+            }
+            window.myFunction = function() {
+                console.log("MyFunc")
+            }
+
+            var monkey = "Bobby"
+        </script>
+
+        <script src="out/production/KotlinJsTest/KotlinJsTest.js"></script>
+
+    </body>
+
+</html>
